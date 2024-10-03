@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+
+display: flex;
+align-items: center;
+color: #FA5B0F;
+font-family: "ADLaM Display", system-ui;
+font-size: 1rem;
+padding: 2rem;
+<link rel="stylesheet" href=./style.css">
+
+
+    main{
+
+    }
+    section{
+
+    }
+
+
+.navigation{
+    display:flex;
+    justify-content: center;
+    gap: 30rem;
+    background-color: var(--secondary-color);
+    padding: 3rem;
+}
+
+nav a {
+    color: var(--fourth-color);
+    font-family: "ADLaM Display", system-ui;
+    font-size: 2rem;
+    text decoration: none;
+}
+
+nav a:hover{
+    color: var(--third-color);
+}
+/* basic css reset */
+:root{
+    --main-color: #FA5B0F;
+    --secondary-color: #B31E00;
+    --third-color: #FA5B0F;
+    --fourth-color: #FFC887;
+    --base-padding: 2rem;
+    --display-font:
+}
+h1 {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-family: "ADLaM Display", system-ui;
+    text-align: center;
+}
+
+
+a{
+    color: var(--third-color);
+    font-family: "ADLaM Display", system-ui;
+}
+
+p{
+    color: var(--third-color);
+    font-family: "ADLaM Display", system-ui;
+    font-size: 28px;
+}
+
+li{
+    color: var(--third-color);
+    font-family: "ADLaM Display", system-ui;
+    font-size: 28px;
+}
+.type {
+    text-align:left;
+}
+.price {
+    text-align:right;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-gallery{
+    background-color: #B31E00;
+    border: 2px #B31E00;
+
+    display: flex;
+    gap: var(--base-padding);
+    padding: var(--base-padding);
+}
+.card{
+    background-color: #FFC887;
+    border: 8px solid #B31E00;
+    padding: var(--base-padding);
+
+    display: flex;
+    gap: var(--base-padding);
+}
+.line{
+    font-size: 1.25rem;
+    color: var(--main-color);
+    font-weight: 800;
+
+}
+    .card h3{
+        font-size: 1.5rem;
+        margin-bottom: auto;
+    }
+
+
